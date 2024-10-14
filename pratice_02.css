@@ -1,0 +1,80 @@
+.container {
+    text-align: center;
+  }
+  
+  .text {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px gray;
+    /* margin: 50px; */
+    margin-top: 30px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ee7e15;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px gray;
+  }
+
+  .meal-container, .meal-details {
+    margin-top: 20px;
+  }
+ 
+  .meal-card {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px gray;
+  }
+  
+  .meal-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .meal-title{
+    color: purple;
+  }
+  
+  .meal-card h2 {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .meal-details img {
+    max-width: 50%;
+    border-radius: 10px;
+  }
+  
+  .meal-details ul {
+    margin: auto;
+    width: 200px;
+    list-style-type: disc;
+    padding-left: 50px;
+  }
+  
+  .meal-details li {
+    /* align-items: center; */
+    text-align: start;
+
+    padding: 5px ;
+  }
+  .meal-details{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 4px 4px 8px gray;
+    margin-bottom: auto;
+  }
+  
